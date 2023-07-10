@@ -52,3 +52,61 @@ body {
     padding: 15px 32px;
     text-align: center;
 }
+
+.failure-container{
+    width: auto;
+    height: 100vh;
+    margin: 10% 10%;
+}
+
+.failure-imin{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.failure-title {
+    width: 346px;
+}
+
+.failure-description {
+    width: 404px;
+}
+
+.failure-check i {
+    margin-right: 12px;
+    color: #16D887;
+}
+
+.plan-title {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    text-align: center;
+    color: #0a0a0a;
+    padding: 15px;
+}
+
+.box-title {
+    color: #181818;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.box-description {
+    padding-bottom: 10px;
+}
+
+.failure-plan {
+    padding: 10% 0;
+}
