@@ -55,7 +55,6 @@ body {
 
 .failure-container {
     width: auto;
-    height: 100vh;
     margin: 10% 10%;
 }
 
@@ -109,7 +108,7 @@ body {
 }
 
 .failure-plan {
-    padding: 10% 0;
+    padding-top: 10%;
 }
 
 .mindset {
@@ -138,4 +137,61 @@ body {
     border: none;
     border-radius: 5px;
     margin-top: 15px;
+    color: #df5b25;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-banner{
+    background-color: #151414;
+    color: #F8F8F8;
+}
+
+.footer-container{
+    width: auto;
+    margin: 0 10%;
+    padding: 10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    width: 30%;
+}
+
+.future-title {
+    font-size: 45px;
+    line-height: normal;
+}
+
+.footer-description {
+    width: 466px;
+    line-height: 26px;
+}
+
+.emial {
+    line-height: 26px;
+}
+
+.phone {
+    line-height: 26px;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+input[type="email"] {
+    display: block;
+    padding: 18px 10px;
+    margin-top: 15px;
+    color: #757575;
+    background-color: #151414;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 90%;
 }
